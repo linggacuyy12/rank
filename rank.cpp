@@ -7,8 +7,10 @@ int main() {
     }else if (skor >= 80){
        cout << " rank a";
     }else if (skor >=70){
-        cout << "rank B";
-    }else {
+        cout << "rank b";
+    }else if (skor >= 60){
         cout << "rank c";
-    }    
+    }else{
+        cout << "rank d";
+    }
 }
